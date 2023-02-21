@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mutations>
+  <category Name="Ascendant" DisplayName="{{G|Ascendant Mutations}}" Property="AscendantMutationShift" ForceProperty="AscendantMutationForceShift">
+    <mutation Name="Endless Mutation" Cost="20" MaxSelected="1" Class="EndlessMutation" Exclusions="Transcendence" BearerDescription="those who never stop evolving" Tile="Mutations/unstable_genome.bmp" />
+    <!--<mutation Name="Ruthless Advancement" Cost="20" MaxSelected="1" Class="RuthlessAdvancement" Exclusions="" BearerDescription="those who advance beyond reason" Tile="Mutations/irritable_genome.bmp" />-->
+    <mutation Name="Rampant Growth" Cost="20" MaxSelected="1" Class="RampantGrowth" Exclusions="Transcendence" BearerDescription="those who pass every plateau" Tile="Mutations/adrenal_control.bmp" />
+    <!--<mutation Name="Transcendence" Cost="100" MaxSelected="1" Class="Transcendence" Exclusions="EndlessMutation,RampantGrowth" BearerDescription="those who constantly improve in all ways" Tile="Mutations/quantum_jitters.bmp" />-->
+  </category>
+
+  <!--<category Name="AscendantDefects" DisplayName="{{R|Ascendant Defects}}">
+    <mutation Name="Albino" Cost="-2" MaxSelected="1" Class="Albino" Exclusions="Photosynthetic Skin" BearerDescription="albinos" Tile="Mutations/albino.bmp" />
+    <mutation Name="Amphibious" Cost="-3" MaxSelected="1" Class="Amphibious" Exclusions="" BearerDescription="the amphibious" Tile="Mutations/amphibious.bmp" />
+  </category>-->
+</mutations>

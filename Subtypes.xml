@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+
+  <class ID="Paths" ChargenTitle="choose path" SingularTitle="path" StatBoxDisplay="true">
+
+    <category Name="Wrathful Sun" DisplayName="&amp;oThe Sunlit Path of the Wrathful Summit">
+
+      <subtype Name="Wrathful Sun" Gear="StartingGear_Pilgrim" Tile="creatures/caste_1.bmp" DetailColor="o">
+        <stat Name="Strength" Bonus="1" />
+        <stat Name="Dexterity" Bonus="1" />
+        <stat Name="Toughness" Bonus="1" />
+        <skills>
+          <skill Name="CookingAndGathering" />
+          <skill Name="CookingAndGathering_Harvestry" />
+          <skill Name="Axe" />
+          <skill Name="Rifles" />
+          <skill Name="Survival_JungleSurvival" />
+        </skills>
+        <savemodifiers>
+          <savemodifier Vs="Bleeding" Amount="2" />
+        </savemodifiers>
+      </subtype>
+
+    <category Name="Wandering Moon" DisplayName="&amp;cThe Moonlit Path of the Wandering Stream">
+
+      <subtype Name="Wandering Moon" Gear="StartingGear_Pilgrim" Tile="creatures/caste_5.bmp" DetailColor="c">
+        <stat Name="Intelligence" Bonus="3" />
+        <skills>
+          <skill Name="Tinkering" />
+          <skill Name="Tinkering_Tinker1" />
+          <skill Name="Axe" />
+          <skill Name="Rifles" />
+          <skill Name="Survival_JungleSurvival" />
+        </skills>
+        <savemodifiers>
+          <savemodifier Vs="Bleeding" Amount="2" />
+        </savemodifiers>
+      </subtype>
+      
+    <category Name="Watchful Stars" DisplayName="&amp;bThe Starlit Path of the Watchful Nine">
+
+      <subtype Name="Watchful Stars" Gear="StartingGear_Pilgrim" Tile="creatures/caste_1.bmp" DetailColor="b">
+        <stat Name="Ego" Bonus="2" />
+        <stat Name="Willpower" Bonus="1" />
+        <skills>
+          <skill Name="CookingAndGathering" />
+          <skill Name="CookingAndGathering_Harvestry" />
+          <skill Name="Axe" />
+          <skill Name="Rifles" />
+          <skill Name="Survival_JungleSurvival" />
+        </skills>
+        <savemodifiers>
+          <savemodifier Vs="Bleeding" Amount="2" />
+        </savemodifiers>
+      </subtype>
+
+    <category Name="Hungering Void" DisplayName="&amp;mThe Voidlit Path of the Hungering Maw">
+
+      <subtype Name="Hungering Void" Gear="StartingGear_Pilgrim" Tile="creatures/caste_12.bmp" DetailColor="m" BodyObject="HungeringVoidBody">
+        <stat Name="Willpower" Bonus="3" />
+        <skills>
+          <skill Name="Discipline" />
+          <skill Name="Discipline_IronMind" />
+          <skill Name="Tinkering" />
+          <skill Name="Tinkering_Tinker1" />
+        </skills>
+        <savemodifiers>
+          <savemodifier Vs="Bleeding" Amount="2" />
+        </savemodifiers>
+      </subtype>
+
+  <class ID="Divinities" ChargenTitle="choose divinity" SingularTitle="divinity" StatBoxDisplay="true">
+
+    <category Name="Transcendent" DisplayName="&amp;KThe Umbral Throne of the Fourfold Paths">
+
+      <subtype Name="Grey Master" Gear="StartingGear_GreyMaster" Tile="creatures/caste_18.bmp" DetailColor="K" BodyObject="PathMasterBody">
+        <skills>
+        </skills>
+      </subtype>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+    <population Name="StartingGear_GreyMaster">
+        <group Name="Items" Style="pickeach">
+            <table Name="StartingGear_Common" />
+
+            <object Blueprint="HalfFullWaterskin" Number="1" />
+            <object Blueprint="Dagger2" Number="2" />
+            <object Blueprint="Black Robes" Number="1" />
+            <object Blueprint="Sandals" Number="1" />
+            <object Blueprint="Light-Obfuscating Lens" Number="1" />
+        </group>
+    </population>
+</populations>

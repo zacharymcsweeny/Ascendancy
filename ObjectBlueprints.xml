@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="HungeringVoidBody" Inherits="BaseHumanoid">
+    <mutation Name="Metamorphosis" Level="10" />
+    <mutation Name="Wings" Level="10" />
+
+    <mutation Name="Beguiling" Level="10" />
+    <mutation Name="Burgeoning" Level="10" />
+    <mutation Name="Clairvoyance" Level="10" />
+    <mutation Name="Confusion" Level="10" />
+    <mutation Name="Cryokinesis" Level="10" />
+    <mutation Name="Disintegration" Level="10" />
+    <mutation Name="Domination" Level="10" />
+    <mutation Name="WillForce" Level="10" />
+    <mutation Name="ForceBubble" Level="10" />
+    <mutation Name="ForceWall" Level="10" />
+    <mutation Name="Kindle" />
+    <mutation Name="LightManipulation" Level="10" />
+    <mutation Name="MassMind" Level="10" />
+    <mutation Name="MentalMirror" Level="10" />
+    <mutation Name="Precognition" Level="10" />
+    <mutation Name="Psychometry" Level="10" />
+    <mutation Name="Pyrokinesis" Level="10" />
+    <mutation Name="SensePsychic" />
+    <mutation Name="SpacetimeVortex" Level="10" />
+    <mutation Name="StunningForce" Level="10" />
+    <mutation Name="SunderMind" Level="10" />
+    <mutation Name="LifeDrain" Level="10" />
+    <mutation Name="Telepathy" />
+    <mutation Name="TeleportOther" Level="10" />
+    <mutation Name="Teleportation" Level="10" />
+    <mutation Name="TemporalFugue" Level="10" />
+    <mutation Name="TimeDilation" Level="10" />
+  </object>
+
+  <object Name="PathMasterBody" Inherits="BaseHumanoid">
+    <part Type="Floating Nearby" />
+    <part Type="Floating Nearby" />
+    <part Type="Floating Nearby" />
+    <part Type="Floating Nearby" />
+    <part Type="Floating Nearby" />
+    <mutation Name="Transcendence" />
+    <mutation Name="Dreamweaving" />
+  </object>
+</objects>

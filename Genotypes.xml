@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<genotypes>
+
+  <genotype Name="Ascendant" MutationPoints="22" StatPoints="20" AllowedMutationCategories="*" CyberneticsLicensePoints="12" RandomWeight="1" DisplayName="Ascendant" Subtypes="Paths" Class="" Code="c" Tile="UI/sw_truekin.bmp" DetailColor="r" BodyObject="Humanoid" BaseHPGain="2-4" BaseSPGain="100" BaseMPGain="3" IsTrueKin="true" IsMutant="true" CharacterBuilderModules="XRL.CharacterBuilds.Qud.QudCallingModule,XRL.CharacterBuilds.Qud.QudMutationsModule">
+    <stat Name="Strength" Minimum="8" Maximum="20" ChargenDescription="Your {{W|Strength}} score determines how effectively you penetrate your opponents' armor with melee attacks, how much damage your melee attacks do, your ability to resist forced movement, and your carry capacity."/>
+    <stat Name="Agility" Minimum="8" Maximum="20" ChargenDescription="Your {{W|Agility}} score determines your accuracy with both melee and ranged weapons and your ability to dodge attacks."/>
+    <stat Name="Toughness" Minimum="8" Maximum="20" ChargenDescription="Your {{W|Toughness}} score determines your number of hit points, your natural healing rate, and your ability to resist poison and disease."/>
+    <stat Name="Intelligence" Minimum="8" Maximum="20" ChargenDescription="Your {{W|Intelligence}} score determines your number of skill points and your ability to examine artifacts."/>
+    <stat Name="Willpower" Minimum="8" Maximum="20" ChargenDescription="Your {{W|Willpower}} score modifies the cooldowns of your activated abilities, determines your ability to resist mental attacks, and modifies your natural healing rate."/>
+    <stat Name="Ego" Minimum="8" Maximum="20" ChargenDescription="Your {{W|Ego}} score determines the potency of your ability to haggle with merchants, and your ability to dominate the wills of other living creatures."/>
+    <skills>
+      <skill Name="Persuasion_RebukeRobot" />
+      <skill Name="Tactics_Run" />
+      <skill Name="Survival_Camp" />
+    </skills>
+    <chargeninfo>
+  {{c|&#249;}} Access to both Mutations and Cybernetics.
+  {{c|&#249;}} Low starting attributes.
+  {{c|&#249;}} High level up bonuses.
+  {{c|&#249;}} -600 reputation with {{C|the Putus Templar}}
+	</chargeninfo>
+  </genotype>
+
+  <genotype Name="Transcendent" MutationPoints="5" StatPoints="20" AllowedMutationCategories="*" CyberneticsLicensePoints="2" RandomWeight="1" DisplayName="Transcendant" Subtypes="Divinities" Class="" Code="c" Tile="UI/sw_truekin.bmp" DetailColor="r" BodyObject="Humanoid" BaseHPGain="1" BaseSPGain="20" BaseMPGain="1" IsTrueKin="true" IsMutant="true" CharacterBuilderModules="XRL.CharacterBuilds.Qud.QudCallingModule,XRL.CharacterBuilds.Qud.QudMutationsModule">
+    <stat Name="Strength" Minimum="10" Maximum="20" ChargenDescription="Your {{W|Strength}} score determines how effectively you penetrate your opponents' armor with melee attacks, how much damage your melee attacks do, your ability to resist forced movement, and your carry capacity."/>
+    <stat Name="Agility" Minimum="10" Maximum="20" ChargenDescription="Your {{W|Agility}} score determines your accuracy with both melee and ranged weapons and your ability to dodge attacks."/>
+    <stat Name="Toughness" Minimum="10" Maximum="20" ChargenDescription="Your {{W|Toughness}} score determines your number of hit points, your natural healing rate, and your ability to resist poison and disease."/>
+    <stat Name="Intelligence" Minimum="10" Maximum="20" ChargenDescription="Your {{W|Intelligence}} score determines your number of skill points and your ability to examine artifacts."/>
+    <stat Name="Willpower" Minimum="10" Maximum="20" ChargenDescription="Your {{W|Willpower}} score modifies the cooldowns of your activated abilities, determines your ability to resist mental attacks, and modifies your natural healing rate."/>
+    <stat Name="Ego" Minimum="10" Maximum="20" ChargenDescription="Your {{W|Ego}} score determines the potency of your ability to haggle with merchants, and your ability to dominate the wills of other living creatures."/>
+    <skills>
+      <skill Name="Persuasion_RebukeRobot" />
+      <skill Name="Tactics_Run" />
+      <skill Name="Survival_Camp" />
+    </skills>
+    <chargeninfo>
+  {{c|&#249;}} Transcends normal limits.
+  {{c|&#249;}} Access to both Mutations and Cybernetics.
+  {{c|&#249;}} Low starting attributes.
+  {{c|&#249;}} Low level up bonuses.
+  {{c|&#249;}} -600 reputation with {{C|the Putus Templar}}
+	</chargeninfo>
+  </genotype>
+
+</genotypes>
